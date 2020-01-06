@@ -139,3 +139,19 @@ length(m3) # 길이
 nrow(m3) # 행의 개수
 
 #다차원배열 : 동일한 자료형을 갖는 array
+v1<-c(1:12)
+a1<-array(v1,c(3,2,2))
+a1
+mode(a1)
+class(a1)
+a1[,,1]
+a1[,,2]
+
+#List자료구조형
+l1<-list('bae','아이린',30)
+l1
+l2<-list(name=c('홍길동','심청'),age=c(20,22),home=c('서울','대전'))
+l2
+l2$name
+l2$age
+l2$home
