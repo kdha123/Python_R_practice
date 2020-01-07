@@ -144,5 +144,29 @@ df2 <- subset(df1,pay<=200 | pay>=220)
 df2
 df2 <- subset(df1,pay>200 & pay<220)
 df2
+#------연습하기------
+df <- data.frame(name=c('사과','딸기','수박'),price=c(1800,1500,3000),sales=c(24,38,13), pass=c(T,T,F))
+df
+mean(df$price)
+mean(df$sales)
+summary(df)
+View(df)
+
+library(ggplot2)
+View(mpg)
+mpg$manufacturer
+summary(mpg)
+qplot(data = mpg, x = hwy) # data에 mpg, x축에 hwy 변수 지정해 그래프 생성
+# x축 cty
+qplot(data = mpg, x=cty)
+# x축 cty, y축 hwy
+qplot(data = mpg, x=cty, y = hwy)
+# x축 cty, y축 hwy, 선그래프 형태
+qplot(data = mpg, x=cty, y = hwy, geom = 'line')
+# x축 cty, y축 hwy, 상자 그림 형태
+qplot(data = mpg, x=cty, y = hwy, geom = 'boxplot')
+# x축 cty, y축 hwy, 상자 그림 형태 , drv별 색 표현
+qplot(data = mpg, x=cty, y = hwy, geom = 'boxplot', colour = drv)
+
 
 #오라클 연동
