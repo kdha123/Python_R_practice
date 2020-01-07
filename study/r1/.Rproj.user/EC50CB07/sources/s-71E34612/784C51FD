@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578374405061.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "784C51FD",
+    "lastKnownWriteTime" : 1578385246,
+    "last_content_update" : 1578385795917,
+    "path" : "D:/study/r1/0107_part3.R",
+    "project_path" : "0107_part3.R",
+    "properties" : {
+        "cursorPosition" : "158,0",
+        "scrollLine" : "141",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
