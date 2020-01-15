@@ -9,4 +9,3 @@ while True:
         break
     else:
         print("그런 음식이 없습니다. 확인해보세요.")
-
