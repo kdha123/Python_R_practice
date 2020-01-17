@@ -24,7 +24,7 @@ print(ss.center(10, '-'))
 # 왼쪽 정렬
 print(ss.ljust(10))
 # 오른쪽 정렬
-print(ss.rjust(10))
+print(ss.rjust(10, '-'))
 # 빈공간에 0채워넣기
 print(ss.zfill(10))
-
+print(ss.isdigit())
