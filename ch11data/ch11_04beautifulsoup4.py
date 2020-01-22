@@ -24,7 +24,8 @@ title = soup.find('title').string
 locations = soup.find_all('location')
 # print(locations)
 for a in locations:
-    print("도시 : ", a.city.string, '---------------')
+    # 함수로 만들수도있음
+    print("------------------ 도시 : ", a.city.string, '---------------')
     data = a.find_all('data')
     for b in data:
         print("일시 :", b.tmef.string)
