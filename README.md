@@ -12,3 +12,4 @@ Python Practice
 + 파일 입출력 inout
 + 웹에서 가져오기 urllib
 + 스크레핑 BeautifulSoup
++ 웹 크롤링 crawling
