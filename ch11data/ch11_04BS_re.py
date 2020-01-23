@@ -15,3 +15,4 @@ soup = bs(html, 'html.parser')
 li = soup.find_all(href=re.compile(r"^https://|http://"))
 for e in li:
     print(e.attrs['href'])
+    print(e.string)
