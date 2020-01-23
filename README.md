@@ -11,5 +11,5 @@ Python Practice
 + 모듈 module
 + 파일 입출력 inout
 + 웹에서 가져오기 urllib
-+ 스크레핑 BeautifulSoup
++ 스크레핑 BeautifulSoup, selenium
 + 웹 크롤링 crawling
