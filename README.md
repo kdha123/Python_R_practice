@@ -13,3 +13,4 @@ Python Practice
 + 웹에서 가져오기 urllib
 + 스크레핑 BeautifulSoup, selenium
 + 웹 크롤링 crawling
++ csv 파일 
