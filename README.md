@@ -14,5 +14,7 @@ Python Practice
 + 스크레핑 BeautifulSoup, selenium
 + 웹 크롤링 crawling
 + csv 파일, excel 파일 읽고 저장
-+ Naver Login
++ Naver Login(API이용 또는 그냥)
 + Oracle 연동
++ 시각화 도구 matplotlib, seaborn
++ 분석 도구 pandas, numpy
