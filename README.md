@@ -18,3 +18,4 @@ Python Practice
 + Oracle 연동
 + 시각화 도구 matplotlib, seaborn
 + 분석 도구 pandas, numpy
++ jupyternotebook 사용

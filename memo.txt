@@ -1,0 +1,10 @@
+3. jupyterlab 설치
+pip install jupyterlab
+4. notebook 설치
+pip install notebook
+5. jupyter notebook 실행
+jupyter notebook
+
+
+<실습1> matplotlib를 이용해서 주어진 리스트 데이터 라인그래프 그리기
+<실습1> seaborn에서 제공하는 tips 데이터 중에서 표시하려는 항목에 따른 boxplot을 이용한 막대 그래프를 그리시오.
